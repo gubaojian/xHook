@@ -48,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
                 {
                     com.qiyi.xhook.XHook.getInstance().refresh(true);
 
+                    Log.d("JavaHook", "JavaHook test log");
                     try {
                         Thread.sleep(5000);
                     } catch (InterruptedException e) {
